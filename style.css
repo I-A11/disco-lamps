@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #3c3b3b;
+  text-align: center;
+  padding: 20px;
+}
+
+#flashAllBtn {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background: crimson;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#flashAllBtn:hover {
+  background: darkred;
+}
+
+.lamp-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.lamp-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lamp {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button {
+  margin: 3px;
+  padding: 6px 10px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lamp.on-red {
+  background-color: red;
+  box-shadow: 0 0 20px red;
+}
+.lamp.on-blue {
+  background-color: blue;
+  box-shadow: 0 0 20px blue;
+}
+.lamp.on-green {
+  background-color: green;
+  box-shadow: 0 0 20px green;
+}
+.lamp.on-yellow {
+  background-color: yellow;
+  box-shadow: 0 0 20px yellow;
+}
+.lamp.on-purple {
+  background-color: purple;
+  box-shadow: 0 0 20px purple;
+}
+.lamp.on-cyan {
+  background-color: cyan;
+  box-shadow: 0 0 20px cyan;
+}

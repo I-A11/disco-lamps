@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Disco lamps panel</title>
+  </head>
+  <body>
+    <h1>Disco Lamp Panel</h1>
+    <button id="flashAllBtn" onclick="toggleFlashAll()">Flash All Lamps</button>
+    <div class="lamp-grid">
+      <div class="lamp-block">
+        <div class="lamp" id="lamp1"></div>
+        <button onclick="toggleLamp('lamp1', 'red')">Toggle Red</button>
+        <button onclick="flashLamp('lamp1', 'red')">Flash Red</button>
+      </div>
+      <div class="lamp-block">
+        <div class="lamp" id="lamp2"></div>
+        <button onclick="toggleLamp('lamp2', 'blue')">Toggle Blue</button>
+        <button onclick="flashLamp('lamp2', 'blue')">Flash Blue</button>
+      </div>
+
+      <div class="lamp-block">
+        <div class="lamp" id="lamp3"></div>
+        <button onclick="toggleLamp('lamp3', 'green')">Toggle Green</button>
+        <button onclick="flashLamp('lamp3', 'green')">Flash Green</button>
+      </div>
+
+      <div class="lamp-block">
+        <div class="lamp" id="lamp4"></div>
+        <button onclick="toggleLamp('lamp4', 'yellow')">Toggle Yellow</button>
+        <button onclick="flashLamp('lamp4', 'yellow')">Flash Yellow</button>
+      </div>
+
+      <div class="lamp-block">
+        <div class="lamp" id="lamp5"></div>
+        <button onclick="toggleLamp('lamp5', 'purple')">Toggle Purple</button>
+        <button onclick="flashLamp('lamp5', 'purple')">Flash Purple</button>
+      </div>
+
+      <div class="lamp-block">
+        <div class="lamp" id="lamp6"></div>
+        <button onclick="toggleLamp('lamp6', 'cyan')">Toggle Cyan</button>
+        <button onclick="flashLamp('lamp6', 'cyan')">Flash Cyan</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
